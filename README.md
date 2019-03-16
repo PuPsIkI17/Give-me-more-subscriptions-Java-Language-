@@ -64,7 +64,7 @@ gasit in memoria principala.
  
 
                                             ------Implementare------
-    Metoda de implementare a proiectului a fost organizarea structurata  si stocarea informatiilor in mai multe 
+Metoda de implementare a proiectului a fost organizarea structurata  si stocarea informatiilor in mai multe 
 clase care contin arraylist-uri si hashmap. Hashmap-ul a fost utilizat pentru gasirea rapida cu ajutorul 
 unei chei a un nod cu o anumita entitate. Dificultatea acestei teme consta in repartizarea informatiei
 din baza de date in clase si gasirea legaturilor dintre tipul atributului si atribut, nod si instanta etc.
