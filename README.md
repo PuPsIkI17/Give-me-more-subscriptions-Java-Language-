@@ -1,9 +1,9 @@
 # Give-me-more-subscriptions-Java-Language
 
 Implementation of 3 types of cache, who use 3 different methods of storing objects:
-</br>-LRU (least recently used) ;
-</br>-FIFO (first in first out);
-</br>-LFU (Least Frequently Used);
+<i></br>-<b>LRU</b> (least recently used);</i>
+<i></br>-<b>FIFO</b> (first in first out);</i>
+<i></br>-<b>LFU</b> (Least Frequently Used);</i>
 
 Pislari Vadim -> Facultatea Automatica si Calculatoare -> Universitatea Politehnica Bucuresti
 
