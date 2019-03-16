@@ -1,5 +1,5 @@
 
-// Pislari Vadim 323CB Tema2 POO
+// Pislari Vadim 323CB
 // Clasa care reprezinta intreaga baza de date
 import java.util.*;
 
