@@ -63,7 +63,7 @@ este eliminat din cache. Parametrul cereri_basic este obligatoriu, iar cereri_pr
 gasit in memoria principala.
  
 
-------Implementare------
+                                            ------Implementare------
     Metoda de implementare a proiectului a fost organizarea structurata  si stocarea informatiilor in mai multe 
 clase care contin arraylist-uri si hashmap. Hashmap-ul a fost utilizat pentru gasirea rapida cu ajutorul 
 unei chei a un nod cu o anumita entitate. Dificultatea acestei teme consta in repartizarea informatiei
