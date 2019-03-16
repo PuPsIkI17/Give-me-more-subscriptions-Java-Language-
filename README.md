@@ -37,27 +37,27 @@ regulile mentionate mai sus. Se defineste o interfata “Cache” ce declara dou
 Ulterior, se implementeaza trei clase: LRUCache, FIFOCache si LFUCache, in care fiecare dintre cele doua metode contin implementarea 
 particulara pentru tipurile de cache. 
  
-2.)Memoria principala</br> 
+<b>2.)Memoria principala</br></b> 
 Memoria principala este reprezentata sub forma unui array ce contine toate obiectele ce vor fi adaugate la un moment dat.
 Chiar daca un obiect se gaseste in cache, acesta este prezent si in memoria principala. 
  
-  3.)Tipuri de obiecte </br>
+<b>  3.)Tipuri de obiecte </br></b>
 Obiectele folosite de cele 2 memorii sunt de 3 tipuri. Se porneste de la clasa Subscriptie (clasa abstracta) si se obtin trei clase: 
 Free (mosteneste clasa abstracta Subscriptie), Basic (mosteneste clasa Free) si Premium (mosteneste clasa Basic). Toate tipurile de 
 subscriptie contin un nume (sir de caractere) ce reprezinta numele titularului ce are subscriptia respectiva. 
  
-  4.)Subscriptii pentru obiecte</br> 
+<b>  4.)Subscriptii pentru obiecte</br></b> 
 Fiecare subscriptie contine numarul de cereri pana la epuizarea celei de tipul Premium si Basic, iar cea Free este nelimitata. 
 In cazul operatiilor de tip GET numele scris este fix tipul subscriptiei (Premium, Basic sau Free). Asta inseamna ca pentru fiecare 
 subscriptie de tip Premium, se mentioneaza un numar ce reprezinta numarul maxim de accesari (GET). In momentul in care acest numar
 este epuizat, subscriptia devine automat Basic, analog devenind ulterior Free care poate fi accesata de un numar nelimitat de ori. 
 
-  5.)Operatii  </br>
+<b>  5.)Operatii  </br></b>
 Sunt implementate doua operatii de lucru cu memoria.
-● ADD nume_obiect cereri_basic [cereri_premium] - la fiecare adaugare de nou element, acesta este inserat numai in memoria principala,
+<i>● ADD nume_obiect cereri_basic [cereri_premium] </i>- la fiecare adaugare de nou element, acesta este inserat numai in memoria principala,
 nu si in cache, iar in cazul in care un element exista deja in memoria principala sau in ambele, se suprascrie in memoria principala si
 este eliminat din cache. Parametrul cereri_basic este obligatoriu, iar cereri_premium este optional. 
-● GET nume_obiect - aceasta operatie intoarce un intreg in functie de apartenenta obiectului la cache: 0 - obiectul se gaseste in cache 
+<i>● GET nume_obiect </i>- aceasta operatie intoarce un intreg in functie de apartenenta obiectului la cache: 0 - obiectul se gaseste in cache 
 1 - obiectul se gaseste doar in memoria principala. Ulterior acestei operatii, obiectul este mutat si in cache 2 - obiectul nu a fost
 gasit in memoria principala.
  
