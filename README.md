@@ -1,9 +1,9 @@
 # Give-me-more-subscriptions-Java-Language
 
 Implementation of 3 types of cache, who use 3 different methods of storing objects:
-&nbsp;&nbsp;&nbsp;<i></br>-<b>LRU</b> (least recently used);</i>
-&nbsp;&nbsp;&nbsp;<i></br>-<b>FIFO</b> (first in first out);</i>
-&nbsp;&nbsp;&nbsp;<i></br>-<b>LFU</b> (Least Frequently Used);</i>
+<i></br>&nbsp;&nbsp;&nbsp;-<b>LRU</b> (least recently used);</i>
+<i></br>&nbsp;&nbsp;&nbsp;-<b>FIFO</b> (first in first out);</i>
+<i></br>&nbsp;&nbsp;&nbsp;-<b>LFU</b> (Least Frequently Used);</i>
 
 Pislari Vadim -> Facultatea Automatica si Calculatoare -> Universitatea Politehnica Bucuresti
 
@@ -24,10 +24,10 @@ in cache va fi inlocuit cu noul element.
 Exista diverse metode de a decide ce element va fi eliminat din cache (numai atunci cand acesta este plin).Se realizeaza implementarea a
 2 tipuri de cache, ce folosesc 2 metode diferite de stocare a obiectelor: 
 
-&nbsp;&nbsp;&nbsp;</br><i><b> ● LRU (least recently used)</b></i> - elementul cel mai putin utilizat va fi inlocuit cu noul obiect (O modalitate, care nu e impusa, de implementare ar fi sa retineti un timestamp dat de un contor care se incrementeaza cand aveti operatii de ADD sau GET, iar la
+</br><i><b>&nbsp;&nbsp;&nbsp; ● LRU (least recently used)</b></i> - elementul cel mai putin utilizat va fi inlocuit cu noul obiect (O modalitate, care nu e impusa, de implementare ar fi sa retineti un timestamp dat de un contor care se incrementeaza cand aveti operatii de ADD sau GET, iar la
 eveacuarea din cache se va alege elementul cu timestamp-ul cel mai mic)
-&nbsp;&nbsp;&nbsp;</br>● <i> <b>FIFO (first in first out)</b></i> - elementul de la inceputul cozii va fi eliminat, iar noul element va fi inserat la finalul cozii. 
-&nbsp;&nbsp;&nbsp;</br>● <i><b>LFU (Least Frequently Used)</b></i> -  de fiecare data cand un obiect trebuie eliminat din cache, se va elimina cel care a fost accesat
+</br>&nbsp;&nbsp;&nbsp;● <i> <b>FIFO (first in first out)</b></i> - elementul de la inceputul cozii va fi eliminat, iar noul element va fi inserat la finalul cozii. 
+</br>&nbsp;&nbsp;&nbsp;● <i><b>LFU (Least Frequently Used)</b></i> -  de fiecare data cand un obiect trebuie eliminat din cache, se va elimina cel care a fost accesat
 de cele mai putine ori de cand se afla in cache. Daca toate obiectele care se afla in cache la un momentdat au fost accesate de
 un numar de ori egal, atunci cel care va fi eliminat va fi primul care a fost adaugat (fiind cel mai vechi). 
   
@@ -54,10 +54,10 @@ este epuizat, subscriptia devine automat Basic, analog devenind ulterior Free ca
 
 &nbsp;&nbsp;&nbsp;<b>  5.)Operatii  </br></b>
 Sunt implementate doua operatii de lucru cu memoria.
-&nbsp;&nbsp;&nbsp;<i>● ADD nume_obiect cereri_basic [cereri_premium] </i>- la fiecare adaugare de nou element, acesta este inserat numai in memoria principala,
+</br>&nbsp;&nbsp;&nbsp;<i>● ADD nume_obiect cereri_basic [cereri_premium] </i>- la fiecare adaugare de nou element, acesta este inserat numai in memoria principala,
 nu si in cache, iar in cazul in care un element exista deja in memoria principala sau in ambele, se suprascrie in memoria principala si
 este eliminat din cache. Parametrul cereri_basic este obligatoriu, iar cereri_premium este optional. 
-&nbsp;&nbsp;&nbsp;<i>● GET nume_obiect </i>- aceasta operatie intoarce un intreg in functie de apartenenta obiectului la cache: 0 - obiectul se gaseste in cache 
+</br>&nbsp;&nbsp;&nbsp;<i>● GET nume_obiect </i>- aceasta operatie intoarce un intreg in functie de apartenenta obiectului la cache: 0 - obiectul se gaseste in cache 
 1 - obiectul se gaseste doar in memoria principala. Ulterior acestei operatii, obiectul este mutat si in cache 2 - obiectul nu a fost
 gasit in memoria principala.
  
