@@ -20,7 +20,7 @@ datelor originale sau recalcularea acestora, astfel încât timpul mediu de acce
 în care un nou element se aduce in cache, iar dimensiunea acestuia deja atinge capacitatea maxima, unul din obiectele deja existente
 in cache va fi inlocuit cu noul element. 
   
-  1.)Tipuri de cache</br>
+ <b> 1.)Tipuri de cache</br></b>
 Exista diverse metode de a decide ce element va fi eliminat din cache (numai atunci cand acesta este plin).Se realizeaza implementarea a
 2 tipuri de cache, ce folosesc 2 metode diferite de stocare a obiectelor: 
 
