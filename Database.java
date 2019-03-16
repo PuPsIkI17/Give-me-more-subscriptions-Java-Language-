@@ -1,5 +1,5 @@
 
-// Pislari Vadim 323CB
+// Pislari Vadim
 // Clasa care reprezinta intreaga baza de date
 import java.util.*;
 
