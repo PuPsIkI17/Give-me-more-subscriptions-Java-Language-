@@ -24,11 +24,10 @@ in cache va fi inlocuit cu noul element.
 Exista diverse metode de a decide ce element va fi eliminat din cache (numai atunci cand acesta este plin).Se realizeaza implementarea a
 2 tipuri de cache, ce folosesc 2 metode diferite de stocare a obiectelor: 
 
-</br> ● LRU (least recently used) - elementul cel mai putin utilizat va fi inlocuit cu noul obiect (O modalitate, care nu e impusa, de 
-implementare ar fi sa retineti un timestamp dat de un contor care se incrementeaza cand aveti operatii de ADD sau GET, iar la
+</br><i><b> ● LRU (least recently used)</b></i> - elementul cel mai putin utilizat va fi inlocuit cu noul obiect (O modalitate, care nu e impusa, de implementare ar fi sa retineti un timestamp dat de un contor care se incrementeaza cand aveti operatii de ADD sau GET, iar la
 eveacuarea din cache se va alege elementul cu timestamp-ul cel mai mic)
-</br>● FIFO (first in first out) - elementul de la inceputul cozii va fi eliminat, iar noul element va fi inserat la finalul cozii. 
-</br>● LFU (Least Frequently Used) -  de fiecare data cand un obiect trebuie eliminat din cache, se va elimina cel care a fost accesat
+</br>● <i> <b>FIFO (first in first out)</b></i> - elementul de la inceputul cozii va fi eliminat, iar noul element va fi inserat la finalul cozii. 
+</br>● <i><b>LFU (Least Frequently Used)</b></i> -  de fiecare data cand un obiect trebuie eliminat din cache, se va elimina cel care a fost accesat
 de cele mai putine ori de cand se afla in cache. Daca toate obiectele care se afla in cache la un momentdat au fost accesate de
 un numar de ori egal, atunci cel care va fi eliminat va fi primul care a fost adaugat (fiind cel mai vechi). 
   
