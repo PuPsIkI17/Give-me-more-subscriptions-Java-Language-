@@ -5,7 +5,7 @@ Implementation of 3 types of cache, who use 3 different methods of storing objec
 <i></br>&nbsp;&nbsp;&nbsp;-<b>FIFO</b> (first in first out);</i>
 <i></br>&nbsp;&nbsp;&nbsp;-<b>LFU</b> (Least Frequently Used);</i>
 
-<font color="red">Pislari Vadim -> Facultatea Automatica si Calculatoare -> Universitatea Politehnica Bucuresti</font>
+Pislari Vadim -> Facultatea Automatica si Calculatoare -> Universitatea Politehnica Bucuresti
 
                                                  (Romanian language)
                                                -------DESCRIERE-------
