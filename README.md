@@ -1,11 +1,11 @@
-<font color="red">This is some text!# Give-me-more-subscriptions-Java-Language</font>
+# Give-me-more-subscriptions-Java-Language
 
 Implementation of 3 types of cache, who use 3 different methods of storing objects:
 <i></br>&nbsp;&nbsp;&nbsp;-<b>LRU</b> (least recently used);</i>
 <i></br>&nbsp;&nbsp;&nbsp;-<b>FIFO</b> (first in first out);</i>
 <i></br>&nbsp;&nbsp;&nbsp;-<b>LFU</b> (Least Frequently Used);</i>
 
-<font color="red">This is some text!Pislari Vadim -> Facultatea Automatica si Calculatoare -> Universitatea Politehnica Bucuresti</font>
+<font color="red">Pislari Vadim -> Facultatea Automatica si Calculatoare -> Universitatea Politehnica Bucuresti</font>
 
                                                  (Romanian language)
                                                -------DESCRIERE-------
