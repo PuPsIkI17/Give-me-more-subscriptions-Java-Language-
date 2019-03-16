@@ -22,8 +22,7 @@ in cache va fi inlocuit cu noul element.
   
 &nbsp;&nbsp;&nbsp; <b> 1.)Tipuri de cache</br></b>
 Exista diverse metode de a decide ce element va fi eliminat din cache (numai atunci cand acesta este plin).Se realizeaza implementarea a
-2 tipuri de cache, ce folosesc 2 metode diferite de stocare a obiectelor: 
-
+3 tipuri de cache, ce folosesc 3 metode diferite de stocare a obiectelor: 
 </br><i><b>&nbsp;&nbsp;&nbsp; ● LRU (least recently used)</b></i> - elementul cel mai putin utilizat va fi inlocuit cu noul obiect (O modalitate, care nu e impusa, de implementare ar fi sa retineti un timestamp dat de un contor care se incrementeaza cand aveti operatii de ADD sau GET, iar la
 eveacuarea din cache se va alege elementul cu timestamp-ul cel mai mic)
 </br>&nbsp;&nbsp;&nbsp;● <i> <b>FIFO (first in first out)</b></i> - elementul de la inceputul cozii va fi eliminat, iar noul element va fi inserat la finalul cozii. 
