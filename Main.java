@@ -1,4 +1,4 @@
-// Pislari Vadim 323CB
+// Pislari Vadim
 // Clasa de baza din care se face citirea si se utilizeaza 
 //celalte clase pentru a realiza tema
 
